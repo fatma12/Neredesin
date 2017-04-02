@@ -1,0 +1,62 @@
+<resources>
+    <string name="app_name">Neredesin</string>
+
+    <string name="kimler">Kimler</string>
+    <string name="harita">Harita</string>
+    <string name="profil">Profil</string>
+    <string name="ayarlar">Ayarlar</string>
+
+    <string name="pref_category_gizlilik">GİZLİLİK</string>
+    <string name="pref_category_uyarilar">UYARILAR</string>
+    <string name="pref_category_tonlar">TONLAR</string>
+
+    <string name="pref_otomatik_baslat_title">Otomatik başlat</string>
+    <string name="pref_konum_bilgimi_gonder_title">Konum bilgimi gönder</string>
+    <string name="pref_arkadas_uyari_title">Yakındakileri bildir</string>
+
+    <string name="pref_yakinlik_title">Yakınlık Ölçüsü</string>
+    <string name="pref_yakinlik_summary">Ne kadar yakın ?</string>
+
+    <string name="pref_bildirim_tonu_title">Bildirim Tonu</string>
+    <string name="pref_bildirim_tonu_summary">Arkadaş uyarı tonu</string>
+
+    <string name="kullanici_adi">Kullanıcı Adı</string>
+    <string name="sifre">Şifre</string>
+    <string name="ad">Ad</string>
+    <string name="ad_zorunlu">Ad (*)</string>
+    <string name="soyad">Soyad</string>
+    <string name="soyad_zorunlu">Soyad (*)</string>
+    <string name="email">Email Adresi</string>
+    <string name="cinsiyet">Cinsiyet</string>
+    <string name="dogum_gunu">Doğum Günü</string>
+    <string name="telefon">Telefon Numarası</string>
+    <string name="kaydet">Kaydet</string>
+
+    <string name="lutfen_bekleyin">Lütfen Bekleyin...</string>
+    <string name="islem_yurutuluyor">İşlem Yürütülüyor...</string>
+    <string name="profiliniz_kaydediliyor">Profiliniz kaydediliyor...</string>
+
+    <string name="toast_bilinmeyen_hata">Bilinmeyen bir hata oluştu. Lütfen daha sonra tekrar deneyin!</string>
+    <string name="toast_profil_kaydet_basarili">Profiliniz başarıyla kaydedildi!</string>
+    <string name="toast_profil_validasyon_hatasi">Lütfen zorunlu alanları doldurduğunuzdan emin olun!</string>
+    <string name="toast_bos_parametre_hatasi">%1$s boş bırakılamaz!</string>
+
+    <string name="arkadas_ekle">Arkadaş Ekle</string>
+    <string name="ekle">Ekle</string>
+    <string name="iptal">İptal</string>
+    <string name="toast_kayitli_profil_yok">Henüz bir profil oluşturmadınız. Lütfen önce profilinizi oluşturun…</string>
+    <string name="toast_arkadas_profil_bulunamadi">Bu kullanıcı adına sahip bir profil bulunamadı!</string>
+    <string name="toast_arkadas_zaten_mevcut">Bu kullanıcı zaten arkadaşınız…</string>
+    <string name="toast_arkadas_ekle_basarili">Arkadaşınız başarıyla eklendi…</string>
+    <string name="toast_arkadas_bulunamadi">Henüz bir arkadaşınız bulunmamaktadır…</string>
+
+    <string name="yakinlik_notification">Yakınlarda bir arkaşınız var…</string>
+    <string name="yakinlik_notification_baslik">Kim Nerede</string>
+    <string name="yakinlik_notification_ayrinti">%1$s yakınlarınızda!</string>
+    <string name="son_guncelleme">Güncelleme : %1$s</string>
+
+    <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
+        AIzaSyDdB0gawD2I5vTjwTXhjPketrNvgW92AT0
+    </string>
+
+</resources>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="@dimen/horizontal_padding"
+    android:paddingBottom="@dimen/vertical_padding"
+    android:paddingRight="@dimen/horizontal_padding"
+    android:paddingTop="@dimen/vertical_padding"
+    android:background="@color/main_background">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        <ImageButton
+            android:id="@+id/profilImageButton"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/profile_photo"></ImageButton>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingTop="30dp">
+            <EditText
+                android:id="@+id/kullanıcıAdıEditText"
+                android:hint="@string/kullanici_adi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+</LinearLayout>
+    <EditText
+        android:id="@+id/adEditText"
+        android:hint="@string/ad_zorunlu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ProfileEditText"/>
+    <EditText
+        android:id="@+id/soyadEditText"
+        android:hint="@string/soyad_zorunlu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="@style/ProfileEditText"/>
+    <EditText
+        android:id="@+id/telefonEditText"
+        android:hint="@string/telefon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="phone"
+        style="@style/ProfileEditText"/>
+    <EditText
+        android:id="@+id/emailEditText"
+        android:hint="@string/email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        style="@style/ProfileEditText"/>
+    <Button
+        android:id="@+id/kaydetButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kaydet"
+        android:layout_marginTop="10dp"
+        android:textColor="@android:color/black"/>
+</LinearLayout>

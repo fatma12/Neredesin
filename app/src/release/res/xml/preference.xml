@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory
+        android:title="@string/pref_category_gizlilik">
+        <CheckBoxPreference
+            android:key="PREF_OTOMATİK_BASLAT"
+            android:title="pref_otomatik_baslat_title"
+            android:defaultValue="true">
+            <CheckBoxPreference
+                android:key="PREF_KONUM_GONDER"
+                android:title="@string/pref_konum_bilgimi_gonder_title"
+
+        </CheckBoxPreference>
+    </PreferenceCategory>
+</PreferenceScreen>
